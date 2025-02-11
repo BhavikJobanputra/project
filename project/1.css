@@ -1,0 +1,204 @@
+
+    body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    scroll-behavior: smooth;
+    background-color: #000;
+    color: white;
+  }
+  
+  /* Landing Section */
+  .landing-section {
+    height: 100vh;
+    /* background: url(main3.jpg) no-repeat center center/cover; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .landing-title {
+    font-size: 4rem;
+    color: #1E90FF;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  /* Welcome Section */
+  .welcome-section {
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #1E3A8A, #000);
+    text-align: center;
+  }
+  
+  .main-title {
+    font-size: 3rem;
+    color: #1E90FF;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  .welcome-message {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  /* Rules Section */
+  .rules-section {
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #000, #1E3A8A);
+    text-align: center;
+  }
+  
+  .rules-title {
+    font-size: 2.5rem;
+    color: #1E90FF;
+    margin-bottom: 20px;
+  }
+  
+  .rules-list {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .rule-item {
+    margin-bottom: 15px;
+    background: #040303;
+    padding: 15px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    color: #FFF;
+    cursor: pointer;
+  }
+  
+  .rule-item:hover {
+    background-color:rgb(252, 244, 244);
+    color: #000;
+    transform: scale(1.05);
+  }
+  /* .round2-description {
+    background-color: rgba(0, 0, 0, 0.6); /* Dark background for better readability */
+    /* padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    color: white;
+  }
+  
+  .round2-description ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .round2-description li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  } */
+  
+  
+  /* Challenge Section */
+  .challenge-section {
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #1E3A8A, black);
+    text-align: center;
+  }
+  
+  .challenge-statement {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: rgb(47, 162, 255);
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .option {
+    padding: 15px 40px;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    background: transparent;
+    border: 2px solid #FFF;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    color: white;
+  }
+  
+  .option:hover {
+    background-color: #fff;
+    color: #000;
+    transform: scale(1.1);
+  }
+  
+  /* Team Members Section */
+  .team-section {
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #1E3A8A, #000);
+    text-align: center;
+  }
+  
+  .team-title {
+    font-size: 2.5rem;
+    color: #1E90FF;
+    margin-bottom: 30px;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .team-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  
+  .member-card {
+    background-color: #0e1b40;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: white;
+  }
+
+  .member-card img {
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+
+  .member-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .member-card p {
+    font-size: 0.9rem;
+    margin: 0.2rem 0;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
